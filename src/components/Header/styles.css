@@ -1,0 +1,11 @@
+.header_block{
+    display: flex;
+
+}
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    margin-left: 30px;
+}
