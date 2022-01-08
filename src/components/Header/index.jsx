@@ -1,8 +1,10 @@
 import React from 'react';
 import "./styles.css";
+import { NavLink } from "react-router-dom";
 
  const Header = (props) => {
-     const { logo, home,portfolio,about} = props;
+    const classnames = ({ isActive }) => isActive ? "nav_item active" : "nav_item";
+     const { logo} = props;
     return (
         <div className="header_block">
             <div className="logo">
@@ -10,9 +12,9 @@ import "./styles.css";
             </div>
             <div className="header_menu">
                 <ul className='menu'>
-                    <li className='row'><a href={home}>Home</a></li>
-                    <li className='row'><a href={portfolio}>Portfolio</a></li>
-                    <li className='row'><a href={about}>About me</a></li>
+                <NavLink className={classnames} to="/" >Home</NavLink>
+                <NavLink className={classnames} to="/about" >About</NavLink>
+                <NavLink className={classnames} to="/project">Project</NavLink>
 
                 </ul>
             </div>

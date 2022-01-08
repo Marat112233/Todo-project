@@ -1,11 +1,38 @@
 .header_block{
     display: flex;
+    justify-content: space-between;
+    min-height: 150px;
+    width: 100%;
 
 }
 .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 30px;
 }
 .row{
     margin-left: 30px;
+}
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo img{
+    width: 130px;
+    height: 100px;
+}
+.header_menu{
+    width: 600px;
+}
+.menu li a{
+text-decoration: none;
+}
+.nav_item {
+    margin-left: 17px;
+    color: black;
+    text-decoration: none;
+}
+.nav_item.active {
+    color: red;
 }

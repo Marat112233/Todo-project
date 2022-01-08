@@ -7,8 +7,9 @@ const Section = () => {
         <div className="container">
             
            <Header 
+           logo="https://tco.am/images/logo/logo-tco-442x340.png"
            home="#"
-           portfolio="#"
+           project="#"
            about="#"
            /> 
 
