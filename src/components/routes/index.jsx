@@ -1,6 +1,8 @@
 import { Navigate } from "react-router";
 import NotFound from "../../Pages/404";
 import About from "../../Pages/About";
+import Register from "../../Pages/Register";
+
 import Home from "../../Pages/Home";
 import Project from "../../Pages/Project"
 export const routes = [
@@ -23,5 +25,9 @@ export const routes = [
     {
         path: "*",
         element: <Navigate to="/not-found" />
+    },
+    {
+        path: "/register",
+        element: <Register />
     }
 ]

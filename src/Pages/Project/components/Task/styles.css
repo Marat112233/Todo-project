@@ -1,0 +1,14 @@
+
+.status-text {
+    font-size: 19px;
+    font-weight: 600;
+}
+.status-done {
+    color: rgb(0, 18, 182);
+}
+.status-active {
+    color: rgb(9, 255, 0);
+}
+.mr-2 {
+    margin-right: 10px;
+}

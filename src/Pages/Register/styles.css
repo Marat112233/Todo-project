@@ -1,0 +1,43 @@
+.reg_form{
+ margin: 0 auto 0 auto;
+ padding: 10px;
+ width: 500px;  
+ display: flex;
+ flex-direction: column;  
+ list-style: none;
+ text-align: start;
+ border: 0.3px solid black;
+ border-radius: 30px;
+
+
+}
+.warning_text{
+    color: red;
+}
+.reg_form input {
+    width: 200px;
+    height: 25px;
+    margin: 0 auto 0 auto;
+    margin-right: 15px;
+}
+.reg_form label{
+    font-size: 25px;
+
+}
+.reg_form button{
+    width: 100px;
+    height: 50px;
+    margin: 20px auto 0 auto;
+}
+.first_name_label{
+    margin-right: 56px;
+}
+.email_label{
+    margin-right: 111px;
+}
+.second_name_label{
+    margin-right: 20px;
+}
+.password_label{
+    margin-right: 67px;
+}

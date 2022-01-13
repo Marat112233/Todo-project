@@ -15,8 +15,10 @@ import { NavLink } from "react-router-dom";
                 <NavLink className={classnames} to="/" >Home</NavLink>
                 <NavLink className={classnames} to="/about" >About</NavLink>
                 <NavLink className={classnames} to="/project">Project</NavLink>
-
                 </ul>
+            </div>
+            <div className="register">
+            <NavLink className={classnames} to='/register'>Register</NavLink>
             </div>
         </div>
     )
